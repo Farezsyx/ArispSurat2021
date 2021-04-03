@@ -53,11 +53,11 @@
                 <div class="modal-body">
                     <form action="data/data_user.php?act=tambah" method="POST">
                         <label for="" class="col-form-label">Username</label>
-                        <input type="text" name="username" placeholder="Username" class="form-control bg-light border-0 small">
+                        <input type="text" name="username" placeholder="Username" class="form-control bg-light border-0 small" required>
                         <label for="" class="col-form-label">Password</label>
-                        <input type="text" name="password" placeholder="Password" class="form-control bg-light border-0 small">
+                        <input type="text" name="password" placeholder="Password" class="form-control bg-light border-0 small" required>
                         <label for="" class="col-form-label">Nama User</label>
-                        <input type="text" name="nama" placeholder="Nama User" class="form-control bg-light border-0 small">
+                        <input type="text" name="nama" placeholder="Nama User" class="form-control bg-light border-0 small" required>
                         <label for="" class="col-form-label">Level</label>
                         <select name="level" id="" class="form-control bg-light border-0 small">>
                             <option value="User">User</option>
